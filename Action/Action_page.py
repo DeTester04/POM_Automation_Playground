@@ -15,9 +15,11 @@ class ActionPage:
         self.driver = driver
 
 #calling our URL
+
     def open_login_page(self, url):
         self.driver.get(url)
 
+#LOG IN PAGE
 
     def enter_email_address(self, email_address):
         enter_email_address = WebDriverWait(self.driver, 20).until(
@@ -102,6 +104,7 @@ class AddNewCustomerPage:
             click_submit_button.click()
             time.sleep(DEFAULT_SLEEP_TIME)
 
+#LOG OUT BUTTON
 
 class LogoutPage:
     def __init__(self, driver):

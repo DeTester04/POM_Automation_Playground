@@ -49,6 +49,6 @@ def test_logout_button(login):
 
     log_out = LogoutPage(login.driver)
 
- #CLICK LOGOUT BUTTON
+ #Click logout button
     log_out.click_log_out()
 
