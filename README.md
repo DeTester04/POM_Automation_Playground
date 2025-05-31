@@ -34,6 +34,7 @@ My_Selenium_Project/
 └── conftest.py (for pytest setup, if using pytest)
 
 
+
 from selenium.webdriver.common.by import By
 
 class LoginLocators:
